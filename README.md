@@ -1,7 +1,7 @@
 # GLY4930-Final-Project-Elevation-Change
 
 ## Description
-Brief Description of Project 
+This project automates visual representation of differences in elevation over time. It takes two different sets of data from different times over the same area and creates a 3D representation of how the topography changed. 
 
 ## Packages & Dependencies 
 discuss yml etc 
@@ -12,17 +12,17 @@ up through opening jupyter lab
 ### Data Collection & Recommended Data Resource:
 The two example sets in this repository include 2020 and 2026 Mid Ocean Ridge data, as well as 2020 and 2026 Great Barrier Reef data. The coordinates for these sights are as follows:
 
-Mid Ocean Ridge: \
-North: 43.131 \
-West: -33.299 \
-East: -23.434 \
-South: 35.663 \
+Mid Ocean Ridge:   
+North: 43.131    
+West: -33.299   
+East: -23.434    
+South: 35.663 
 
-Great Barrier Reef:  \
-North: 9.08 \
-West: 143.52 \
-South: 24.06 \
-East: 152.42 \
+Great Barrier Reef:    
+North: 9.08    
+West: 143.52   
+South: 24.06    
+East: 152.42 
 
 These sights were both selected off of [GEBCO's Grid Subsetting Application](https://download.gebco.net/). This application contains several years worth of topography data, and can specifically select an exact coordinate box to pull data from. For this program to function properly, the old data and new data should be downloaded using the exact same coordinates; the code relies on the old and new data matching in size, and therefore requires identical subsections for comparison. 
 
