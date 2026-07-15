@@ -1,0 +1,31 @@
+name: svFinalProj
+
+channels:
+  - conda-forge
+  
+dependencies:
+  - python=3.12
+  
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+
+  - verde=1.9.0
+  - cartopy
+  - pyproj
+  - shapely
+  - rasterio
+  - rioxarray
+  
+  - pyvista
+  - cmocean
+  
+  - pip
+  - pip:
+    - gstatsim==1.1.5
