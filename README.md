@@ -36,5 +36,8 @@ These sites were both selected off of [GEBCO's Grid Subsetting Application](http
    - year of new data
    - 4 coordinates from the data's location
 
+### NOTE: 
+The color maps chosen were specifically selected for underwater areas, and will therefore will appear misleading above sea level.
+
 ## Author
 The project was authored by Sydney Vargo. 
