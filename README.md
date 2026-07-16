@@ -1,7 +1,7 @@
 # GLY4930-Final-Project-Elevation-Change
 
 ## Description
-This project automates visual representation of differences in elevation over time. It takes two different sets of data from different times over the same area and creates a 3D representation of how the topography changed. 
+This project automates visual representation of differences in elevation over time. It takes two different sets of data from different times over the same coordinate area and creates a visual of the elevation changes. 
 
 ## Packages & Dependencies 
 discuss yml etc 
