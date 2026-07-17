@@ -12,15 +12,9 @@ dependencies:
   
   - numpy
   - pandas
-  - scipy
-  - scikit-learn
   - matplotlib
 
-  - verde=1.9.0
   - cartopy
-  - pyproj
-  - shapely
-  - rasterio
   - rioxarray
   
   - pyvista
@@ -28,4 +22,5 @@ dependencies:
   
   - pip
   - pip:
+    - "pyvista[jupyter]"
     - gstatsim==1.1.5
