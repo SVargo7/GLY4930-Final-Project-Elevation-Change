@@ -43,7 +43,7 @@ The code uses the following dependencies to operate:
 These are all included in the .yml file, and will be automatically installed in the new environment. 
 
 ## Opening the Project
-Once the environment is created and activated, run "jupyter lab" and move both code files in. The two code files are included in the "projectCode" folder. Download SVFinalProjUserFile.ipynb and graphingFunctions.py into your preferred folder (ensure that they are in the same folder, or adjust the import statements at the top of the .ipynb file). In the SVFinalProjUserFile.ipynb file, the example is structured to call the data within folders named "midOceanRidge" and "greatBarrierReef." When downloading, ensure to adjust the file paths in the function calls to the correct data to avoid errors. 
+Once the environment is created and activated, run "jupyter lab" and move both code files in. The two code files are included in the "projectCode" folder. Download SVFinalProjUserFile.ipynb and graphingFunctions.py into your preferred folder (ensure that they are in the same folder, or adjust the import statements at the top of the .ipynb file). In the SVFinalProjUserFile.ipynb file, the example is structured to call the data within folders named "midOceanRidge" and "greatBarrierReef." When downloading, ensure to adjust the file paths in the function calls to the correct data to avoid errors. Downloadable data can be located in the "data" folder.
 
 ### Data Collection & Recommended Data Resource:
 The two example data sets in this repository include 2020 and 2026 Mid Ocean Ridge data, as well as 2020 and 2026 Great Barrier Reef data. The coordinates for these sites are as follows:
