@@ -6,7 +6,7 @@ This project automates visual representation of differences in elevation over ti
 ## Installation
 This project is built to operate in its own environment created from the GLY4930FinalProject.yml file. In order to create a new environment for the project's specifications, download the .yml file and run the following command in the terminal: 
 
-conda env create -f GLY4930FinalProject.yml
+    conda env create -f GLY4930FinalProject.yml
 
 This will allow for all packages and dependencies to be included properly. Unless specified, the new environment will be called svFinalProj, and can be activated using:
 
