@@ -1,16 +1,51 @@
 # GLY4930-Final-Project-Elevation-Change
 
 ## Description
-This project automates visual representation of differences in elevation over time. It takes two different sets of data from different times over the same coordinate area and creates a visual of the elevation changes. 
-
-## Packages & Dependencies 
-discuss yml etc 
+This project automates visual representation of differences in elevation over time. It takes two different sets of data from different times over the same coordinate area and creates visuals of the elevation changes. The first visual is in 2D; it gives a flat map with color exaggeration of which areas increased or decreased in elevation. The second visual provides a moveable 3D representation of the increases and decreases. This program creates and uses two functions, twoDGraphing and threeDGraphing. 
 
 ## Installation
-up through opening jupyter lab
+This project is built to operate in its own environment created from the GLY4930FinalProject.yml file. In order to create a new environment for the project's specifications, run the following command in the terminal: 
+
+conda env create -f environment.yml
+
+This will allow for all packages and dependencies to be included properly. Unless specified, the new environment will be called svFinalProj, and can be activated using:
+
+conda activate svFinalProj
+
+and deactivated with:
+
+conda deactivate
+
+## Packages & Dependencies 
+The code uses the following dependencies to operate: 
+
+- python=3.12
+
+- jupyterlab
+- ipykernel
+- ipywidgets
+  
+- numpy
+- pandas
+- matplotlib
+
+- cartopy
+- rioxarray
+  
+- pyvista
+- cmocean
+  
+- pip
+- pip:
+   - gstatsim==1.1.5
+ 
+These are all included in the .yml file, and will be automatically installed in the new environment. 
+
+## Opening the Project
+The code is included in the "projectCode" folder. Download SVFinalProjUserFile.ipynb and graphingFunctions.py into your preferred folder. For the example data to work, 
 
 ### Data Collection & Recommended Data Resource:
-The two example sets in this repository include 2020 and 2026 Mid Ocean Ridge data, as well as 2020 and 2026 Great Barrier Reef data. The coordinates for these sites are as follows:
+The two example data sets in this repository include 2020 and 2026 Mid Ocean Ridge data, as well as 2020 and 2026 Great Barrier Reef data. The coordinates for these sites are as follows:
 
 Mid Ocean Ridge:   
 North: 43.131    
