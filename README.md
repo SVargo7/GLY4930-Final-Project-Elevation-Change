@@ -10,11 +10,11 @@ conda env create -f GLY4930FinalProject.yml
 
 This will allow for all packages and dependencies to be included properly. Unless specified, the new environment will be called svFinalProj, and can be activated using:
 
-conda activate svFinalProj
+    conda activate svFinalProj
 
 and deactivated with:
 
-conda deactivate
+    conda deactivate
 
 ## Packages & Dependencies 
 The code uses the following dependencies to operate: 
