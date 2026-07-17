@@ -37,6 +37,7 @@ The code uses the following dependencies to operate:
   
 - pip
 - pip:
+   - "pyvista[jupyter]"
    - gstatsim==1.1.5
  
 These are all included in the .yml file, and will be automatically installed in the new environment. 
